@@ -79,7 +79,7 @@
 
       movieCard.innerHTML = `
         <div class="card my-2" data-id = " ${data.Title} ">
-        <a href="movie.html" >
+        <a href="Movie.html" >
           <img
             src="${data.Poster} "
             class="card-img-top"
@@ -88,7 +88,7 @@
           />
           <div class="card-body text-start">
             <h5 class="card-title" >
-              <a href="movie.html" data-id = "${data.Title} "> ${data.Title}  </a>
+              <a href="Movie.html" data-id = "${data.Title} "> ${data.Title}  </a>
             </h5>
             <p class="card-text">
               <i class="fa-solid fa-star">
@@ -162,7 +162,7 @@
     />
     <div class="movie-card-details">
       <p class="movie-name mt-3 mb-0">
-       <a href = "movie.html" class="fav-movie-name" data-id="${movie.Title}">${movie.Title}<a> 
+       <a href = "Movie.html" class="fav-movie-name" data-id="${movie.Title}">${movie.Title}<a> 
       </p>
       <small class="text-muted">${movie.Year}</small>
     </div>
